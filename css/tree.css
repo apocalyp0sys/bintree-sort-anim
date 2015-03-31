@@ -1,0 +1,65 @@
+
+body {
+   font-family: sans-serif;
+   font-size: 10pt;
+}
+
+p {
+   margin: 2pt;
+   padding: 2pt;
+}
+
+h1 {
+   font-size:16pt;
+}
+
+div#buttonsContainer{
+   margin: 4pt;
+}
+
+.node circle {
+   fill: #fff;
+   stroke: steelblue;
+   stroke-width: 3px;
+}
+
+.node text, .text-out { font: 12px sans-serif; }
+
+.link {
+   fill: none;
+   stroke: #ccc;
+   stroke-width: 2px;
+}
+
+
+
+#unsortedValues, #sortedValues {
+   height: 28px;
+   min-width: 990px;
+
+}
+
+#unsortedValues div, #sortedValues div{
+   float:left;
+   width:20px;
+   height:20px;
+   text-align:center;
+   line-height: 20px;
+   background:lightyellow;
+   border: 1px solid black;
+   margin: 2px;
+   overflow: hidden;
+}
+
+#sortedValues div{
+   background: lightgreen;
+   width:0;
+}
+
+#descriptionText{
+   display:none;
+}
+
+#svgContainer {
+   clear:both;
+}
